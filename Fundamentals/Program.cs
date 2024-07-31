@@ -37,6 +37,7 @@
     }
 }
 
+
 static void RastgeleSayıBulmaOyunu()
 {
     // Rastgele bir sayı üretir (1 ile 100 arasında)
@@ -83,13 +84,7 @@ static void RastgeleSayıBulmaOyunu()
 
     // Tahmin hakkı dolduğunda doğru sayıyı bildirir
     Console.WriteLine($"Maalesef, tahmin hakkınız doldu. Doğru sayı: {rndNumber}");
-
-
-
-
-
 }
-
 static void HesapMakinesi()
 {
     // İlk sayıyı kullanıcıdan alır
@@ -163,14 +158,6 @@ static void HesapMakinesi()
     }
     // Hesaplama sonucunu gösterir
     Console.WriteLine($"Sonuç: {result}");
-
-
-
-
-
-
-
-
 }
 
 static void OrtalamaHesaplama()
