@@ -55,3 +55,11 @@ The program asks the user to input three exam scores. It then calculates the ave
 3. **Commit your changes** (`git commit -am 'Added a new feature'`)
 4. **Push the branch** (`git push origin feature-name`)
 5. **Open a Pull Request**
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any questions or support, please email (ahmet.sulu1993@gmail.com)
