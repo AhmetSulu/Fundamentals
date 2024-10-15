@@ -1,58 +1,57 @@
-# Temel C# Uygulamaları Koleksiyonu
+# Basic C# Applications Collection
 
-Bu proje, temel C# uygulamalarını içeren bir koleksiyondur. Üç farklı program içerir:
+This project is a collection of basic C# applications, featuring three different programs:
 
-1. **Rastgele Sayı Bulma Oyunu:** Kullanıcıya rastgele bir sayı verilir ve kullanıcı bu sayıyı tahmin etmeye çalışır.
-2. **Hesap Makinesi:** Kullanıcı iki sayı girer ve basit matematiksel işlemler (toplama, çıkarma, çarpma, bölme) gerçekleştirir.
-3. **Ortalama Hesaplama:** Kullanıcıdan üç ders notu alır ve bu notların ortalamasını hesaplayarak harf notunu belirler.
+1. **Random Number Guessing Game:** The user is given a random number and attempts to guess it.
+2. **Calculator:** The user inputs two numbers and performs basic mathematical operations (addition, subtraction, multiplication, division).
+3. **Average Grade Calculator:** The user enters three exam scores, and the program calculates the average and determines the corresponding letter grade.
 
-## Gereksinimler
+## Requirements
 
-- .NET Core 3.1 veya daha yeni bir sürüm
-- Bir C# destekleyen IDE (Visual Studio, Visual Studio Code vb.)
+- .NET Core 3.1 or later
+- An IDE that supports C# (Visual Studio, Visual Studio Code, etc.)
 
-## Kullanım
+## Usage
 
-### Rastgele Sayı Bulma Oyunu
-Program çalıştırıldığında, kullanıcıdan 1 ile 100 arasında bir sayı tahmin etmesi istenir. Kullanıcının 5 tahmin hakkı vardır. Program, tahminlerin doğru olup olmadığına göre kullanıcıyı bilgilendirir.
+### Random Number Guessing Game
+When the program starts, the user is asked to guess a number between 1 and 100. The user has 5 attempts to guess the correct number. The program informs the user if the guesses are correct or not.
 
-### Hesap Makinesi
-Kullanıcı iki sayı girer ve hangi matematiksel işlemi yapmak istediğini belirtir. Program, belirtilen işlemi gerçekleştirir ve sonucu ekrana yazdırır.
+### Calculator
+The user inputs two numbers and selects the desired mathematical operation. The program performs the selected operation and displays the result.
 
-### Ortalama Hesaplama
-Kullanıcıdan üç ders notu girilmesi istenir. Notların ortalaması hesaplanır ve bir harf notu ile birlikte ekrana yazdırılır.
+### Average Grade Calculator
+The program asks the user to input three exam scores. It then calculates the average and prints it along with the corresponding letter grade.
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
-- **Dil:** C#
+- **Language:** C#
 
-## Kullanılan Yapılar ve Fonksiyonlar
+## Structures and Functions Used
 
-- **Döngüler:** `while`, `switch-case`
-- **Koşul İfadeleri:** `if-else`
-- **Kullanıcı Girdisi:** `Console.ReadLine()`
-- **Girdi Doğrulama:** `int.TryParse()`, `double.TryParse()`
-- **Rastgele Sayı Üretimi:** `Random.Next()`
-- **Matematiksel İşlemler:** Toplama (+), çıkarma (-), çarpma (*), bölme (/)
+- **Loops:** `while`, `switch-case`
+- **Conditional Statements:** `if-else`
+- **User Input:** `Console.ReadLine()`
+- **Input Validation:** `int.TryParse()`, `double.TryParse()`
+- **Random Number Generation:** `Random.Next()`
+- **Mathematical Operations:** Addition (+), subtraction (-), multiplication (*), division (/)
 
-## Kurulum
+## Setup
 
-1. **Depoyu Klonlayın:**
+1. **Clone the repository:**
     ```sh
-    git clone https://github.com/kullanici_adi/temel-csharp-uygulamalari.git
+    git clone https://github.com/your_username/basic-csharp-applications.git
     ```
-2. **Projeyi açın:**
-    - Bir C# destekleyen IDE ile proje dosyasını açın.
-3. **Gereksinimleri yükleyin:**
-    - .NET Core 3.1 veya daha yeni bir sürüm kurulu olmalıdır.
-4. **Projeyi çalıştırın:**
-    - IDE içerisinden veya komut satırından `dotnet run` komutunu kullanarak projeyi çalıştırabilirsiniz.
+2. **Open the project:**
+    - Open the project file in an IDE that supports C#.
+3. **Install the requirements:**
+    - Ensure .NET Core 3.1 or a later version is installed.
+4. **Run the project:**
+    - You can run the project from the IDE or via the command line using `dotnet run`.
 
-## Katkıda Bulunma
+## Contributing
 
-1. **Fork** edin (https://github.com/kullanici_adi/temel-csharp-uygulamalari/fork)
-2. **Yeni bir dal oluşturun** (`git checkout -b ozellik-adi`)
-3. **Değişikliklerinizi commit edin** (`git commit -am 'Yeni bir özellik ekledim'`)
-4. **Dalınıza push edin** (`git push origin ozellik-adi`)
-5. **Bir Pull Request oluşturun**
-
+1. **Fork the repository** (https://github.com/your_username/basic-csharp-applications/fork)
+2. **Create a new branch** (`git checkout -b feature-name`)
+3. **Commit your changes** (`git commit -am 'Added a new feature'`)
+4. **Push the branch** (`git push origin feature-name`)
+5. **Open a Pull Request**
